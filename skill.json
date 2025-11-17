@@ -32,7 +32,7 @@
         "apis": {
             "custom": {
                 "endpoint": {
-                    "sourceDir": "lambda/custom",
+                    "sourceDir": "./",
                     "uri": "white-noise-skill"
                 }
             }
