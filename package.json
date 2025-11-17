@@ -1,0 +1,9 @@
+{
+  "name": "alexa-white-noise-skill",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "dependencies": {
+    "ask-sdk-core": "^2.13.0"
+  }
+}
