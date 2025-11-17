@@ -1,0 +1,42 @@
+{
+    "manifest": {
+        "publishingInformation": {
+            "locales": {
+                "en-US": {
+                    "name": "White Noise",
+                    "summary": "White Noise for baby sleeping",
+                    "description": "White Noise skill for baby sleeping",
+                    "examplePhrases": [
+                        "Alexa open White Noise",
+                        "White Noise",
+                        "White Noise help"
+                    ],
+                    "keywords": []
+                },
+                "en-GB": {
+                    "name": "White Noise",
+                    "summary": "White Noise for baby sleeping",
+                    "description": "White Noise skill for baby sleeping",
+                    "examplePhrases": [
+                        "Alexa open White Noise",
+                        "White Noise",
+                        "White Noise help"
+                    ],
+                    "keywords": []
+                }
+            },
+            "isAvailableWorldwide": true,
+            "testingInstructions": "alexa test white noise",
+            "distributionCountries": []
+        },
+        "apis": {
+            "custom": {
+                "endpoint": {
+                    "sourceDir": "lambda/custom",
+                    "uri": "white-noise-skill"
+                }
+            }
+        },
+        "manifestVersion": "1.0"
+    }
+}
