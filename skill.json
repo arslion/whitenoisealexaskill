@@ -8,10 +8,10 @@
                     "description": "White Noise skill for baby sleeping",
                     "examplePhrases": [
                         "Alexa open White Noise",
-                        "White Noise",
-                        "White Noise help"
+                        "alexa play White Noise",
+                        "Alexa, stop"
                     ],
-                    "keywords": []
+                    "keywords": ["white noise", "audio", "baby", "soothing"]
                 },
                 "en-GB": {
                     "name": "White Noise",
@@ -19,10 +19,10 @@
                     "description": "White Noise skill for baby sleeping",
                     "examplePhrases": [
                         "Alexa open White Noise",
-                        "White Noise",
-                        "White Noise help"
+                        "alexa play White Noise",
+                        "Alexa, stop"
                     ],
-                    "keywords": []
+                    "keywords": ["white noise", "audio", "baby", "soothing"]
                 }
             },
             "isAvailableWorldwide": true,
@@ -34,9 +34,21 @@
                 "endpoint": {
                     "sourceDir": "./",
                     "uri": "white-noise-skill"
-                }
+                },
+                "interfaces": [
+                            {
+                              "type": "AUDIO_PLAYER"
+                            }
+                          ]
             }
         },
+        "privacyAndCompliance": {
+        "allowsPurchases": false,
+        "usesPersonalInfo": false,
+        "isChildDirected": false,
+        "isExportCompliant": true,
+        "containsAds": false
+      },
         "manifestVersion": "1.0"
     }
 }
