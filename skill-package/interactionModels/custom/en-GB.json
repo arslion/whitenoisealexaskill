@@ -1,0 +1,30 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "white noise",
+      "intents": [
+        {
+          "name": "StartLoopIntent",
+          "slots": [],
+          "samples": [
+            "start",
+            "begin",
+            "play",
+            "play the loop",
+            "start the loop",
+            "start playing"
+          ]
+        },
+        { "name": "AMAZON.HelpIntent", "samples": [] },
+        { "name": "AMAZON.CancelIntent", "samples": [] },
+        { "name": "AMAZON.StopIntent", "samples": [] },
+        { "name": "AMAZON.PauseIntent", "samples": [] },
+        { "name": "AMAZON.FallbackIntent", "samples": [] },
+        { "name": "AMAZON.RepeatIntent", "samples": [] }
+      ],
+      "types": []
+    },
+    "dialog": { "intents": [], "delegationStrategy": "ALWAYS" },
+    "prompts": []
+  }
+}
